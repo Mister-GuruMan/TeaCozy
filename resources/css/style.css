@@ -17,6 +17,7 @@ body {
 
 h2, h4 {
   padding: 10px 0px;
+  display: block;
 }
 
 .flex-container {
@@ -86,6 +87,7 @@ nav span a {
 .items {
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 70px;
 }
 
 .item {
@@ -100,4 +102,46 @@ nav span a {
 .item span {
   display: block;
   padding-top: 10px;
+}
+/* LOCATIONS */
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url('../images/img-locations-background.jpg');
+  margin: 0 auto;
+}
+
+.locations h2 {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 70px;
+}
+
+.location-tiles {
+  justify-content: space-around;
+  align-content: center;
+  background-color: transparent;
+}
+
+.location-tile {
+  width: 300px;
+  margin: 15px 20px;
+  text-align: center;
+  padding: 40px 0px;
+  opacity: 1;
+}
+/* CONTACT */
+.contact {
+  padding-top: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h5 {
+  margin: 30px auto;
+}
+/* COPYRIGHT */
+#copyright {
+  text-align: left;
 }
