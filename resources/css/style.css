@@ -8,8 +8,19 @@ body {
   font-family: "Helvetica";
   font-size: 22px;
   color: seashell;
-
   opacity: 0.9;
+}
+
+.main {
+  padding-top: 70px;
+}
+
+h2, h4 {
+  padding: 10px 0px;
+}
+
+.flex-container {
+  display: flex;
 }
 
 /* HEADER AND NAVIGATION */
@@ -47,13 +58,10 @@ nav span a {
 /* OUR MISSION */
 
 .mission {
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   background-image: url("../images/img-mission-background.jpg");
-  position: relative;
-  top: 70px;
   height: 700px;
   width: 1200px;
   margin: 0 auto;
@@ -65,6 +73,31 @@ nav span a {
   width: 100%;
 }
 
-.banner *{
-  padding: 10px 0px;
+/* TEA OF THE MONTH */
+
+.shop {
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.items {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  padding: 20px 15px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+.item span {
+  display: block;
+  padding-top: 10px;
 }
